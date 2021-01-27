@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1972.0, 91.0, 1430.0, 906.0 ],
+		"rect" : [ 1971.0, 91.0, 1430.0, 906.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 1144.5, 662.0, 236.0, 189.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 5, "obj-17", "toggle", "int", 0, 5, "obj-24", "number", "int", 5, 5, "obj-78", "toggle", "int", 1, 5, "obj-1", "number", "int", 1, 5, "obj-5", "number", "int", 1, 5, "obj-8", "number", "int", 1, 5, "obj-15", "number", "int", 1, 5, "obj-22", "toggle", "int", 1, 5, "obj-25", "toggle", "int", 1, 5, "obj-26", "toggle", "int", 1, 5, "obj-47", "toggle", "int", 1, 5, "obj-38", "number", "int", 1, 5, "obj-36", "number", "int", 1, 5, "obj-34", "number", "int", 1, 5, "obj-32", "number", "int", 1, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 46, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 46, 5, "obj-92", "kslider", "int", 46, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 50, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 53, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 57, 5, "obj-63", "number", "int", 19, 5, "obj-66", "number", "int", 23, 5, "obj-68", "number", "int", 16, 5, "obj-70", "number", "int", 12, 5, "obj-72", "number", "int", 10, 5, "obj-74", "number", "int", 3, 5, "obj-77", "number", "int", 0, 5, "obj-80", "number", "int", 1, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 42.0, 5, "obj-89", "slider", "float", 44.0, 5, "obj-93", "slider", "float", 48.0, 5, "obj-99", "slider", "float", 66.0, 5, "obj-113", "slider", "float", 54.0, 5, "obj-121", "slider", "float", 27.0, 5, "obj-127", "slider", "float", 76.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 209.0, 5, "obj-144", "slider", "float", 206.0 ]
+						}
+ ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-145",
 					"maxclass" : "newobj",
