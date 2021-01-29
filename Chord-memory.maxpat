@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1968.0, 91.0, 1508.0, 906.0 ],
+		"rect" : [ 1965.0, 90.0, 1508.0, 906.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,255 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1184.611284971237183, 689.048782348632812, 20.0, 140.0 ],
+					"size" : 10000.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-142",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.611284971237183, 8.0, 95.388715028762817, 47.0 ],
+					"text" : "Cory Arcangel, Chord Memory, 2021"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1334.56402850151062, 9.0, 122.022101044654846, 20.0 ],
+					"text" : "Generate chords --->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1174.430642485618591, 9.0, 117.361284971237183, 20.0 ],
+					"text" : "Generate rythm --->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-138",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.5, 11.0, 171.0, 20.0 ],
+					"presentation_linecount" : 3,
+					"text" : "<--- Generate drone"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-136",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.5, 8.0, 58.0, 20.0 ],
+					"text" : "<--- Start"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1154.111284971237183, 689.048782348632812, 20.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 659.5, 727.14634108543396, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 503.0, 8.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 754.0, 453.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 503.0, 52.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 659.5, 697.048782348632812, 32.0, 22.0 ],
+					"text" : "+ 60"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 659.5, 662.048782348632812, 66.0, 22.0 ],
+					"text" : "random 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 965.56402850151062, 832.14634108543396, 40.0, 21.0 ],
+					"text" : "Pitch",
+					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "kslider",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 915.56402850151062, 689.048782348632812, 224.0, 38.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 0,
+					"patching_rect" : [ 915.56402850151062, 868.14634108543396, 52.0, 23.0 ],
+					"text" : "noteout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-7",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 915.56402850151062, 832.14634108543396, 53.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 915.56402850151062, 797.14634108543396, 193.5, 23.0 ],
+					"text" : "makenote 60 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1005.56402850151062, 832.14634108543396, 53.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-13",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 915.56402850151062, 764.14634108543396, 53.0, 23.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-238",
 					"maxclass" : "number",
@@ -1035,7 +1284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1157.111284971237183, 834.14634108543396, 50.0, 22.0 ]
+					"patching_rect" : [ 1224.722569942474365, 834.14634108543396, 50.0, 22.0 ]
 				}
 
 			}
@@ -1048,7 +1297,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1157.111284971237183, 809.14634108543396, 32.5, 22.0 ],
+					"patching_rect" : [ 1224.722569942474365, 809.14634108543396, 32.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -1065,7 +1314,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1157.111284971237183, 773.14634108543396, 165.0, 22.0 ]
+					"patching_rect" : [ 1224.722569942474365, 773.14634108543396, 165.0, 22.0 ]
 				}
 
 			}
@@ -1077,7 +1326,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1157.111284971237183, 868.14634108543396, 51.0, 22.0 ],
+					"patching_rect" : [ 1224.722569942474365, 868.14634108543396, 51.0, 22.0 ],
 					"text" : "pgmout"
 				}
 
@@ -1090,22 +1339,34 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 1281.0, 846.883629221027149, 207.0, 48.26271186440681 ],
+					"patching_rect" : [ 1286.611284971237183, 841.883629221027149, 207.0, 48.26271186440681 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 11, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 1, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-30", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "number", "int", 49, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 49, 5, "obj-92", "kslider", "int", 49, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 53, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 56, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 60, 5, "obj-63", "number", "int", 16, 5, "obj-66", "number", "int", 13, 5, "obj-68", "number", "int", 14, 5, "obj-70", "number", "int", 2, 5, "obj-72", "number", "int", 0, 5, "obj-74", "number", "int", 22, 5, "obj-77", "number", "int", 14, 5, "obj-80", "number", "int", 16, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 55.0, 5, "obj-89", "slider", "float", 40.0, 5, "obj-93", "slider", "float", 31.0, 5, "obj-99", "slider", "float", 26.0, 5, "obj-113", "slider", "float", 14.0, 5, "obj-121", "slider", "float", 13.0, 5, "obj-127", "slider", "float", 24.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 209.0, 5, "obj-144", "slider", "float", 206.0, 5, "obj-168", "umenu", "int", 0, 5, "obj-163", "number", "int", 0, 5, "obj-236", "toggle", "int", 0, 5, "obj-227", "toggle", "int", 0, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 0, 5, "obj-224", "toggle", "int", 0, 5, "obj-215", "toggle", "int", 0, 5, "obj-214", "toggle", "int", 0, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 18.0, 5, "obj-208", "slider", "float", 22.0, 5, "obj-205", "slider", "float", 26.0, 5, "obj-202", "slider", "float", 31.0, 5, "obj-199", "slider", "float", 36.0, 5, "obj-196", "slider", "float", 51.0, 5, "obj-193", "slider", "float", 57.0, 5, "obj-190", "slider", "float", 73.0, 5, "obj-252", "number", "int", 8, 5, "obj-250", "number", "int", 11, 5, "obj-248", "number", "int", 18, 5, "obj-246", "number", "int", 21, 5, "obj-244", "number", "int", 21, 5, "obj-242", "number", "int", 21, 5, "obj-240", "number", "int", 16, 5, "obj-238", "number", "int", 7 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 3, 5, "obj-78", "toggle", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 0, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 1, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "number", "int", 53, 5, "obj-18", "number", "int", 162, 5, "obj-95", "number", "int", 53, 5, "obj-92", "kslider", "int", 53, 5, "obj-104", "number", "int", 162, 5, "obj-103", "number", "int", 57, 5, "obj-108", "number", "int", 162, 5, "obj-107", "number", "int", 60, 5, "obj-117", "number", "int", 162, 5, "obj-116", "number", "int", 64, 5, "obj-63", "number", "int", 20, 5, "obj-66", "number", "int", 4, 5, "obj-68", "number", "int", 17, 5, "obj-70", "number", "int", 11, 5, "obj-72", "number", "int", 20, 5, "obj-74", "number", "int", 10, 5, "obj-77", "number", "int", 11, 5, "obj-80", "number", "int", 7, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 42.0, 5, "obj-89", "slider", "float", 44.0, 5, "obj-93", "slider", "float", 48.0, 5, "obj-99", "slider", "float", 66.0, 5, "obj-113", "slider", "float", 54.0, 5, "obj-121", "slider", "float", 27.0, 5, "obj-127", "slider", "float", 76.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 209.0, 5, "obj-144", "slider", "float", 206.0 ]
+							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 4, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "number", "int", 53, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 53, 5, "obj-92", "kslider", "int", 53, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 57, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 60, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 64, 5, "obj-63", "number", "int", 17, 5, "obj-66", "number", "int", 10, 5, "obj-68", "number", "int", 4, 5, "obj-70", "number", "int", 13, 5, "obj-72", "number", "int", 14, 5, "obj-74", "number", "int", 1, 5, "obj-77", "number", "int", 4, 5, "obj-80", "number", "int", 21, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 55.0, 5, "obj-89", "slider", "float", 40.0, 5, "obj-93", "slider", "float", 31.0, 5, "obj-99", "slider", "float", 26.0, 5, "obj-113", "slider", "float", 14.0, 5, "obj-121", "slider", "float", 13.0, 5, "obj-127", "slider", "float", 24.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 154.0, 5, "obj-144", "slider", "float", 74.0, 5, "obj-168", "umenu", "int", 6, 5, "obj-163", "number", "int", 12, 5, "obj-236", "toggle", "int", 0, 5, "obj-227", "toggle", "int", 0, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 0, 5, "obj-224", "toggle", "int", 0, 5, "obj-215", "toggle", "int", 1, 5, "obj-214", "toggle", "int", 1, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 18.0, 5, "obj-208", "slider", "float", 22.0, 5, "obj-205", "slider", "float", 26.0, 5, "obj-202", "slider", "float", 31.0, 5, "obj-199", "slider", "float", 36.0, 5, "obj-196", "slider", "float", 51.0, 5, "obj-193", "slider", "float", 57.0, 5, "obj-190", "slider", "float", 73.0, 5, "obj-252", "number", "int", 20, 5, "obj-250", "number", "int", 9, 5, "obj-248", "number", "int", 16, 5, "obj-246", "number", "int", 14, 5, "obj-244", "number", "int", 1, 5, "obj-242", "number", "int", 19, 5, "obj-240", "number", "int", 13, 5, "obj-238", "number", "int", 18 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-17", "toggle", "int", 0, 5, "obj-24", "number", "int", 1, 5, "obj-78", "toggle", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 1, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 1, 5, "obj-47", "toggle", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 56, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 56, 5, "obj-92", "kslider", "int", 56, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 60, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 63, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 67, 5, "obj-63", "number", "int", 20, 5, "obj-66", "number", "int", 7, 5, "obj-68", "number", "int", 8, 5, "obj-70", "number", "int", 23, 5, "obj-72", "number", "int", 7, 5, "obj-74", "number", "int", 20, 5, "obj-77", "number", "int", 16, 5, "obj-80", "number", "int", 11, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 42.0, 5, "obj-89", "slider", "float", 44.0, 5, "obj-93", "slider", "float", 48.0, 5, "obj-99", "slider", "float", 66.0, 5, "obj-113", "slider", "float", 54.0, 5, "obj-121", "slider", "float", 27.0, 5, "obj-127", "slider", "float", 76.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 209.0, 5, "obj-144", "slider", "float", 206.0 ]
+							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 5, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 1, 5, "obj-25", "toggle", "int", 1, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 40, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 40, 5, "obj-92", "kslider", "int", 40, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 44, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 47, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 51, 5, "obj-63", "number", "int", 17, 5, "obj-66", "number", "int", 10, 5, "obj-68", "number", "int", 4, 5, "obj-70", "number", "int", 13, 5, "obj-72", "number", "int", 14, 5, "obj-74", "number", "int", 1, 5, "obj-77", "number", "int", 4, 5, "obj-80", "number", "int", 21, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 55.0, 5, "obj-89", "slider", "float", 40.0, 5, "obj-93", "slider", "float", 31.0, 5, "obj-99", "slider", "float", 26.0, 5, "obj-113", "slider", "float", 14.0, 5, "obj-121", "slider", "float", 13.0, 5, "obj-127", "slider", "float", 24.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 628.0, 5, "obj-144", "slider", "float", 999.0, 5, "obj-168", "umenu", "int", 6, 5, "obj-163", "number", "int", 12, 5, "obj-236", "toggle", "int", 1, 5, "obj-227", "toggle", "int", 1, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 1, 5, "obj-224", "toggle", "int", 0, 5, "obj-215", "toggle", "int", 1, 5, "obj-214", "toggle", "int", 1, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 18.0, 5, "obj-208", "slider", "float", 22.0, 5, "obj-205", "slider", "float", 26.0, 5, "obj-202", "slider", "float", 31.0, 5, "obj-199", "slider", "float", 36.0, 5, "obj-196", "slider", "float", 51.0, 5, "obj-193", "slider", "float", 57.0, 5, "obj-190", "slider", "float", 73.0, 5, "obj-252", "number", "int", 20, 5, "obj-250", "number", "int", 9, 5, "obj-248", "number", "int", 16, 5, "obj-246", "number", "int", 14, 5, "obj-244", "number", "int", 1, 5, "obj-242", "number", "int", 19, 5, "obj-240", "number", "int", 13, 5, "obj-238", "number", "int", 18 ]
 						}
 , 						{
 							"number" : 4,
 							"data" : [ 5, "obj-17", "toggle", "int", 0, 5, "obj-24", "number", "int", 7, 5, "obj-78", "toggle", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 0, 5, "<invalid>", "number", "int", 1, 5, "<invalid>", "number", "int", 1, 5, "obj-31", "toggle", "int", 0, 5, "obj-30", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 52, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 52, 5, "obj-92", "kslider", "int", 52, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 56, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 59, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 63, 5, "obj-63", "number", "int", 20, 5, "obj-66", "number", "int", 7, 5, "obj-68", "number", "int", 8, 5, "obj-70", "number", "int", 23, 5, "obj-72", "number", "int", 7, 5, "obj-74", "number", "int", 20, 5, "obj-77", "number", "int", 16, 5, "obj-80", "number", "int", 11, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 42.0, 5, "obj-89", "slider", "float", 44.0, 5, "obj-93", "slider", "float", 48.0, 5, "obj-99", "slider", "float", 66.0, 5, "obj-113", "slider", "float", 54.0, 5, "obj-121", "slider", "float", 27.0, 5, "obj-127", "slider", "float", 76.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 209.0, 5, "obj-144", "slider", "float", 206.0 ]
+						}
+, 						{
+							"number" : 5,
+							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 10, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 1, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 1, 5, "obj-47", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-30", "toggle", "int", 0, 5, "obj-29", "toggle", "int", 0, 5, "obj-28", "number", "int", 59, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 59, 5, "obj-92", "kslider", "int", 59, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 63, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 66, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 70, 5, "obj-63", "number", "int", 2, 5, "obj-66", "number", "int", 6, 5, "obj-68", "number", "int", 7, 5, "obj-70", "number", "int", 23, 5, "obj-72", "number", "int", 6, 5, "obj-74", "number", "int", 23, 5, "obj-77", "number", "int", 10, 5, "obj-80", "number", "int", 12, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 40.0, 5, "obj-89", "slider", "float", 16.0, 5, "obj-93", "slider", "float", 19.0, 5, "obj-99", "slider", "float", 12.0, 5, "obj-113", "slider", "float", 23.0, 5, "obj-121", "slider", "float", 54.0, 5, "obj-127", "slider", "float", 82.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 205.0, 5, "obj-144", "slider", "float", 74.0, 5, "obj-168", "umenu", "int", 0, 5, "obj-163", "number", "int", 0, 5, "obj-236", "toggle", "int", 0, 5, "obj-227", "toggle", "int", 0, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 0, 5, "obj-224", "toggle", "int", 0, 5, "obj-215", "toggle", "int", 1, 5, "obj-214", "toggle", "int", 1, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 34.0, 5, "obj-208", "slider", "float", 78.0, 5, "obj-205", "slider", "float", 11.0, 5, "obj-202", "slider", "float", 33.0, 5, "obj-199", "slider", "float", 56.0, 5, "obj-196", "slider", "float", 78.0, 5, "obj-193", "slider", "float", 74.0, 5, "obj-190", "slider", "float", 99.0, 5, "obj-252", "number", "int", 11, 5, "obj-250", "number", "int", 3, 5, "obj-248", "number", "int", 12, 5, "obj-246", "number", "int", 10, 5, "obj-244", "number", "int", 8, 5, "obj-242", "number", "int", 15, 5, "obj-240", "number", "int", 21, 5, "obj-238", "number", "int", 17 ]
+						}
+, 						{
+							"number" : 6,
+							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 1, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 0, 5, "obj-47", "toggle", "int", 1, 5, "obj-31", "toggle", "int", 1, 5, "obj-30", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 53, 5, "obj-18", "number", "int", 60, 5, "obj-95", "number", "int", 53, 5, "obj-92", "kslider", "int", 53, 5, "obj-104", "number", "int", 60, 5, "obj-103", "number", "int", 57, 5, "obj-108", "number", "int", 60, 5, "obj-107", "number", "int", 60, 5, "obj-117", "number", "int", 60, 5, "obj-116", "number", "int", 64, 5, "obj-63", "number", "int", 17, 5, "obj-66", "number", "int", 8, 5, "obj-68", "number", "int", 4, 5, "obj-70", "number", "int", 15, 5, "obj-72", "number", "int", 8, 5, "obj-74", "number", "int", 2, 5, "obj-77", "number", "int", 12, 5, "obj-80", "number", "int", 0, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 40.0, 5, "obj-89", "slider", "float", 16.0, 5, "obj-93", "slider", "float", 19.0, 5, "obj-99", "slider", "float", 12.0, 5, "obj-113", "slider", "float", 23.0, 5, "obj-121", "slider", "float", 54.0, 5, "obj-127", "slider", "float", 82.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 205.0, 5, "obj-144", "slider", "float", 74.0, 5, "obj-168", "umenu", "int", 0, 5, "obj-163", "number", "int", 0, 5, "obj-236", "toggle", "int", 1, 5, "obj-227", "toggle", "int", 1, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 0, 5, "obj-224", "toggle", "int", 1, 5, "obj-215", "toggle", "int", 0, 5, "obj-214", "toggle", "int", 0, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 34.0, 5, "obj-208", "slider", "float", 78.0, 5, "obj-205", "slider", "float", 11.0, 5, "obj-202", "slider", "float", 33.0, 5, "obj-199", "slider", "float", 56.0, 5, "obj-196", "slider", "float", 78.0, 5, "obj-193", "slider", "float", 74.0, 5, "obj-190", "slider", "float", 99.0, 5, "obj-252", "number", "int", 2, 5, "obj-250", "number", "int", 16, 5, "obj-248", "number", "int", 2, 5, "obj-246", "number", "int", 10, 5, "obj-244", "number", "int", 4, 5, "obj-242", "number", "int", 21, 5, "obj-240", "number", "int", 1, 5, "obj-238", "number", "int", 14 ]
+						}
+, 						{
+							"number" : 7,
+							"data" : [ 5, "obj-17", "toggle", "int", 1, 5, "obj-24", "number", "int", 6, 5, "obj-78", "toggle", "int", 1, 5, "obj-22", "toggle", "int", 0, 5, "obj-25", "toggle", "int", 0, 5, "obj-26", "toggle", "int", 1, 5, "obj-47", "toggle", "int", 0, 5, "obj-31", "toggle", "int", 0, 5, "obj-30", "toggle", "int", 1, 5, "obj-29", "toggle", "int", 1, 5, "obj-28", "number", "int", 47, 5, "obj-18", "number", "int", 0, 5, "obj-95", "number", "int", 47, 5, "obj-92", "kslider", "int", 47, 5, "obj-104", "number", "int", 0, 5, "obj-103", "number", "int", 51, 5, "obj-108", "number", "int", 0, 5, "obj-107", "number", "int", 54, 5, "obj-117", "number", "int", 0, 5, "obj-116", "number", "int", 58, 5, "obj-63", "number", "int", 0, 5, "obj-66", "number", "int", 10, 5, "obj-68", "number", "int", 6, 5, "obj-70", "number", "int", 11, 5, "obj-72", "number", "int", 15, 5, "obj-74", "number", "int", 16, 5, "obj-77", "number", "int", 11, 5, "obj-80", "number", "int", 9, 5, "obj-58", "slider", "float", 99.0, 5, "obj-86", "slider", "float", 40.0, 5, "obj-89", "slider", "float", 16.0, 5, "obj-93", "slider", "float", 19.0, 5, "obj-99", "slider", "float", 12.0, 5, "obj-113", "slider", "float", 23.0, 5, "obj-121", "slider", "float", 54.0, 5, "obj-127", "slider", "float", 82.0, 5, "obj-133", "number", "int", 0, 5, "obj-143", "slider", "float", 138.0, 5, "obj-144", "slider", "float", 105.0, 5, "obj-168", "umenu", "int", 0, 5, "obj-163", "number", "int", 0, 5, "obj-236", "toggle", "int", 0, 5, "obj-227", "toggle", "int", 0, 5, "obj-226", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 0, 5, "obj-224", "toggle", "int", 1, 5, "obj-215", "toggle", "int", 1, 5, "obj-214", "toggle", "int", 1, 5, "obj-213", "toggle", "int", 1, 5, "obj-211", "slider", "float", 34.0, 5, "obj-208", "slider", "float", 78.0, 5, "obj-205", "slider", "float", 11.0, 5, "obj-202", "slider", "float", 33.0, 5, "obj-199", "slider", "float", 56.0, 5, "obj-196", "slider", "float", 78.0, 5, "obj-193", "slider", "float", 74.0, 5, "obj-190", "slider", "float", 99.0, 5, "obj-252", "number", "int", 11, 5, "obj-250", "number", "int", 17, 5, "obj-248", "number", "int", 18, 5, "obj-246", "number", "int", 12, 5, "obj-244", "number", "int", 12, 5, "obj-242", "number", "int", 5, 5, "obj-240", "number", "int", 8, 5, "obj-238", "number", "int", 7 ]
 						}
  ]
 				}
@@ -1131,7 +1392,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 247.0, 678.048782348632812, 18.0, 104.097558736801147 ],
+					"patching_rect" : [ 251.452743530273438, 678.048782348632812, 18.0, 104.097558736801147 ],
 					"size" : 1000.0
 				}
 
@@ -1144,7 +1405,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.952743530273438, 8.0, 20.0, 140.0 ],
+					"patching_rect" : [ 128.047256469726562, 8.0, 20.0, 140.0 ],
 					"size" : 1000.0
 				}
 
@@ -1206,18 +1467,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.5, 45.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-132",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 63.5, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1837,7 +2086,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 286.0, 642.878050088882446, 32.0, 22.0 ],
+					"patching_rect" : [ 301.452743530273438, 645.878050088882446, 32.0, 22.0 ],
 					"text" : "+ 36"
 				}
 
@@ -2403,7 +2652,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1348.0, 9.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1301.0, 9.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2596,7 +2845,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -2604,6 +2853,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -2662,6 +2919,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
 					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -2730,7 +2994,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-132", 0 ]
 				}
 
@@ -2753,7 +3024,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"source" : [ "obj-135", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"order" : 0,
+					"source" : [ "obj-137", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
 					"source" : [ "obj-137", 0 ]
 				}
 
@@ -2944,6 +3238,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-150", 0 ]
 				}
@@ -2967,6 +3268,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-152", 0 ],
 					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 2 ],
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -3625,6 +3933,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -3655,6 +3970,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -3789,6 +4111,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
@@ -3826,6 +4155,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -4017,6 +4353,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -4303,7 +4653,26 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "messageBlue",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color1" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.660494,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
