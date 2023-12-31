@@ -4,7 +4,7 @@ function getRandomNumber(min, max) {
 }
 
 // Number of rows
-const numRows = 24;
+const numRows = 16;
 
 // Probabilities
 const Probabilities = [
@@ -23,15 +23,7 @@ const Probabilities = [
 0,
 0,
 0,
-0,
-0,
-0,
-0,
-100,
-100,
-100,
-100,
-100
+0
 ];
 
 // Generate 24 rows
