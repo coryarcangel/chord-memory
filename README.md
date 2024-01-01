@@ -41,8 +41,6 @@ Requirements: Open Office or Excel, midicsv, csvmidi
 A vvvv simple chord generator losely based on the "chord memory" function of some keyboards & general off the wall random pitching.  
 
 Usage: 
-copy gen data from Excel to TXT file aka chord-memory.csv
-./trxr.sh chord-memory.csv > chord-memory-m.csv 
-csvmidi chord-memory-m.csv chord-memory-m.mid 
+csvmidi chord-memory.csv chord-memory.mid 
 ;-)
 
