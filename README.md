@@ -44,3 +44,4 @@ Usage:
 csvmidi chord-memory.csv chord-memory.mid 
 ;-)
 
+Commander mode: output=$(date +"%d-%m-%Y-%H-%M-%S"); cp cm.csv $output-cm.csv; csvmidi cm.csv $output-cm.mid
