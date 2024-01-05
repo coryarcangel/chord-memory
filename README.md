@@ -49,6 +49,6 @@ Note length - Length of each note.
 Usage:
 Function 9 to generate a random score in Open Office. csvmidi chord-memory.csv chord-memory.mid
 
-Commander mode (file names is score): filename=$(awk -F',' 'NR==3 {print $4}' cm.csv); cp cm.csv $filename.csv; csvmidi cm.csv $filename.mid
+Commander mode (file names is score): filename=$(awk -F',' 'NR==3 {print $4}' cm.csv); cp cm.csv $filename.csv; csvmidi $filename.csv $filename.mid
 
 Arrangement: For each note of 16 ticks, and a drone, place a maj 7th chord on a random note. As for arrangement, tempo, and instrumentation, that is completely up to the performer. For example, the given notes can be transposed, and even all but one in each chord thorwn away. Very flexi! 
