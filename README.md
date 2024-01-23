@@ -38,7 +38,7 @@ arcangelsurfware.biz
 
 Elevator pitch: A vvvv simple chord generator losely based on the "chord memory" function of some keyboards & general off the wall random pitching.
 
-Requires: Open Office, svmidi
+Requires: Open Office, csvmidi
 
 optional Excel args:
 % - Percentage (of 100%) of likehood that chord will appear
